@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+html,body {
+  overflow-x:hidden;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  /* background-color: rgb(249, 249, 249); */
+  z-index: 0;
+}
+
+
+@media (min-width: 900px) {
+  .container {
+    min-height: calc(100vh - 120px);
+  }
+}
+
+@media (max-width: 899px) {
+  .container {
+    min-height: calc(100vh - 64px);
+  }
+}
